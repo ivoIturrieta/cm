@@ -18,6 +18,6 @@ Bundler.require(*Rails.groups)
 
 module CryptoMineros
   class Application < Rails::Application
-  
+    config.eager_load_paths << "#{Rails.root}/lib"
   end
 end
