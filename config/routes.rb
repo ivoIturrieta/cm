@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 
   get 'about-us', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'crypto-news', to: 'pages#crypto_news'
 
   resources :blogs do
     member do
